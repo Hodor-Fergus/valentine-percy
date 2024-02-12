@@ -13,11 +13,14 @@ export default function Page() {
   const getNoButtonText = () => {
     const phrases = [
       "No",
+      "rustig aan",
       "Are you sure?",
-      "Really sure?",
-      "Think again!",
+      "You serf",
+      "doe normal",
+      "waa 2 chainss ?",
+      "eh eh fake madam ipups !",
       "Last chance!",
-      "Surely not?",
+      "Shilev shem",
       "You might regret this!",
       "Give it another thought!",
       "Are you absolutely certain?",
@@ -34,7 +37,7 @@ export default function Page() {
   };
 
   return (
-    <div className="centered-container">      
+    <div className="centered-container">
       <div className="valentine-container">
         {yesPressed ? (
           <>
@@ -48,7 +51,12 @@ export default function Page() {
               style={{ width: "400x", height: "240px" }}
               src="https://gifdb.com/images/high/cute-love-bear-roses-ou7zho5oosxnpo6k.gif"
             />
-            <h1 className="text-container">Kwedi, my pepper and honey, Will you be my Valentine?</h1>
+            <h1 className="text-container">
+              Kenyuyfo-on aka mdme ipups aka 2 chains,
+              <br /> As annoying and pretty as you are,
+              <br />
+              Will you be my valentine?
+            </h1>
             <div>
               <button
                 className={"yes-button"}
